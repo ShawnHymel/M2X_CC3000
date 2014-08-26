@@ -108,7 +108,7 @@ void setup() {
   digitalWrite(LED_PIN, LOW);
   
   // Initialize UART for debugging
-  Serial.begin(115200);
+  Serial.begin(9600);
   Serial.println();
   Serial.println(F("SparkFun CC3000 - M2X LED"));
 
